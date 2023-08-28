@@ -1,0 +1,399 @@
+/* Apply some general styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* Style for the header section */
+#header_1 {
+    background-color: #292b2c;
+    color: #ffffff;
+}
+
+#header {
+    padding: 15px 0;
+    transition: all 0.3s;
+    z-index: 997;
+}
+
+#header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo styles */
+.logo {
+    margin-right: 20px;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo img {
+    max-height: 60px;
+}
+
+/* Navigation menu styles */
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #ffc107;
+}
+
+/* Active menu item style */
+.nav-menu .active a {
+    color: #ffc107;
+}
+
+/* Fixed top header on scroll */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(41, 43, 44, 0.9);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 991px) {
+    #header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .logo {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    
+    .nav-menu {
+        margin-top: 15px;
+    }
+    
+    .nav-menu ul {
+        flex-direction: column;
+    }
+    
+    .nav-menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Style for the intro section */
+#intro {
+    background-color: #292b2c;
+    color: #ffffff;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#intro .container {
+    position: relative;
+    z-index: 2;
+}
+
+#intro h1.title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+#intro p.description {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#intro .btn-get-started {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #ffc107;
+    padding: 12px 25px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    text-decoration: none;
+}
+
+#intro .btn-get-started:hover {
+    background-color: #ffca2c;
+    transform: scale(1.05);
+}
+
+/* Hero image styles */
+.hero-img {
+    position: relative;
+}
+
+.hero-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.hero-img img:hover {
+    transform: scale(1.03);
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 991px) {
+    #intro {
+        padding: 80px 0;
+    }
+    
+    #intro h1.title {
+        font-size: 28px;
+    }
+    
+    #intro p.description {
+        font-size: 16px;
+    }
+    
+    #intro .btn-get-started {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+/* Style for the skills section */
+#skills {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    color: #333;
+}
+
+#skills .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#skills .section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#skills .section-title p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+#skills .icon-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+#skills .icon-box:hover {
+    transform: translateY(-5px);
+}
+
+#skills .icon-box i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #ffc107;
+}
+
+#skills .icon-box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#skills .icon-box p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Skill percentage styles */
+.skill-progress {
+    position: relative;
+    height: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.skill-progress .skill-percentage {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.skill-progress .progress-bar {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #ffc107;
+    position: relative;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 991px) {
+    #skills {
+        padding: 80px 0;
+    }
+    
+    #skills .icon-box {
+        padding: 30px;
+    }
+}
+
+/*footer*/
+#footer {
+  background-color: #bad8f7;
+  padding: 40px 0;
+  color: #333;
+}
+
+#footer .footer-banner {
+  text-align: center;
+}
+
+#footer .section-title h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+#footer .section-title p {
+  font-size: 14px;
+  color: #666;
+}
+
+#footer .contact {
+  margin-top: 30px;
+}
+
+#footer .info-box {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#footer .info-box i {
+  font-size: 16px;
+  margin-right: 20px;
+  color: #020202;
+}
+
+#footer .info-box ul{
+    list-style: none;
+}
+
+#footer h3 {
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+#footer p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+}
+
+#footer .social-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: -125px;
+}
+
+#footer .social-links li {
+  display: inline-flex;
+  margin: 0 10px;
+}
+
+#footer .social-links i {
+  font-size: 24px;
+  color: #316344;
+  transition: color 0.3s;
+}
+
+#footer .social-links i:hover {
+  color: #0056b3;
+}
+
+.conatat_dtls{
+    text-decoration: none;
+    color: #000;
+}
+
+@media (max-width: 767px) {
+  #footer .info-box {
+    text-align: center;
+  }
+  
+  #footer .info-box,
+  #footer .social-links {
+    margin-top: 10px;
+  }
+}
+
+
+.progress {
+    position: relative;
+    height: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progress-bar {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #3498db;
+    animation: progress-animation 2s ease-in-out;
+    position: relative;
+  }
+  
+  @keyframes progress-animation {
+    0% {
+      width: 0;
+    }
+  }
+  
+  .progress-bar::before {
+    content: attr(aria-valuenow) '%'; /* Display the progress percentage */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+  }
+  
