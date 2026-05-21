@@ -1,0 +1,537 @@
+- generic [active] [ref=e1]:
+  - link "Hire Me" [ref=e2]:
+    - /url: "#contact"
+    - text: Hire Me
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "LK." [ref=e6]:
+        - /url: "#hero"
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "About" [ref=e9]:
+            - /url: "#about"
+        - listitem [ref=e10]:
+          - link "Services" [ref=e11]:
+            - /url: "#services"
+        - listitem [ref=e12]:
+          - link "Experience" [ref=e13]:
+            - /url: "#experience"
+        - listitem [ref=e14]:
+          - link "Projects" [ref=e15]:
+            - /url: "#projects"
+        - listitem [ref=e16]:
+          - link "Hire Me" [ref=e17]:
+            - /url: "#contact"
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]: Available for Hire
+      - generic [ref=e22]: / Salem, TN
+    - generic [ref=e23]:
+      - heading "LOGESH WARAN K" [level=1] [ref=e24]:
+        - generic [ref=e26]: LOGESH
+        - generic [ref=e28]: WARAN K
+      - paragraph [ref=e31]
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - paragraph [ref=e36]: "3.5"
+          - paragraph [ref=e37]: Yrs Experience
+        - generic [ref=e38]:
+          - paragraph [ref=e39]: 5+
+          - paragraph [ref=e40]: Projects
+        - generic [ref=e41]:
+          - paragraph [ref=e42]: 8+
+          - paragraph [ref=e43]: Certifications
+      - generic [ref=e44]:
+        - link "Hire Me " [ref=e45]:
+          - /url: "#contact"
+          - text: Hire Me
+          - generic [ref=e46]: 
+        - link "View Work" [ref=e47]:
+          - /url: "#projects"
+      - generic [ref=e49]: Scroll
+  - generic [ref=e51]:
+    - generic [ref=e52]: FULLSTACK DEVELOPER
+    - generic [ref=e53]: ✦
+    - generic [ref=e54]: NEXT.JS
+    - generic [ref=e55]: ✦
+    - generic [ref=e56]: NODE.JS
+    - generic [ref=e57]: ✦
+    - generic [ref=e58]: NESTJS
+    - generic [ref=e59]: ✦
+    - generic [ref=e60]: REACT
+    - generic [ref=e61]: ✦
+    - generic [ref=e62]: FLUTTER
+    - generic [ref=e63]: ✦
+    - generic [ref=e64]: MYSQL · POSTGRESQL
+    - generic [ref=e65]: ✦
+    - generic [ref=e66]: TAILWIND CSS
+    - generic [ref=e67]: ✦
+    - generic [ref=e68]: FULLSTACK DEVELOPER
+    - generic [ref=e69]: ✦
+    - generic [ref=e70]: NEXT.JS
+    - generic [ref=e71]: ✦
+    - generic [ref=e72]: NODE.JS
+    - generic [ref=e73]: ✦
+    - generic [ref=e74]: NESTJS
+    - generic [ref=e75]: ✦
+    - generic [ref=e76]: REACT
+    - generic [ref=e77]: ✦
+    - generic [ref=e78]: FLUTTER
+    - generic [ref=e79]: ✦
+    - generic [ref=e80]: MYSQL · POSTGRESQL
+    - generic [ref=e81]: ✦
+    - generic [ref=e82]: TAILWIND CSS
+    - generic [ref=e83]: ✦
+  - generic [ref=e85]:
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e89]: "01"
+          - generic [ref=e91]: Services
+        - heading "WHAT I BUILD" [level=2] [ref=e92]:
+          - text: WHAT I
+          - text: BUILD
+      - paragraph [ref=e93]: End-to-end development across web and mobile — from landing pages to full-scale applications.
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]: "01"
+          - generic [ref=e98]: 
+        - generic [ref=e99]:
+          - heading "Static Website" [level=3] [ref=e100]
+          - paragraph [ref=e101]: Fast, SEO-friendly static websites for businesses, portfolios, and landing pages. Pixel-perfect designs that load instantly.
+        - generic [ref=e102]:
+          - paragraph [ref=e103]: Tech Stack
+          - generic [ref=e104]:
+            - generic [ref=e105]: HTML5
+            - generic [ref=e106]: Tailwind CSS
+            - generic [ref=e107]: JavaScript
+            - generic [ref=e108]: Next.js
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e111]: "02"
+          - generic [ref=e112]: 
+        - generic [ref=e113]:
+          - heading "Web Application" [level=3] [ref=e114]
+          - paragraph [ref=e115]: Full-stack web applications — CRMs, dashboards, e-commerce platforms, and SaaS products with secure APIs and modern UI.
+        - generic [ref=e116]:
+          - paragraph [ref=e117]: Tech Stack
+          - generic [ref=e118]:
+            - generic [ref=e119]: React / Next.js
+            - generic [ref=e120]: Node.js
+            - generic [ref=e121]: NestJS
+            - generic [ref=e122]: MySQL
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e125]: "03"
+          - generic [ref=e126]: 
+        - generic [ref=e127]:
+          - heading "Mobile App" [level=3] [ref=e128]
+          - paragraph [ref=e129]: Cross-platform mobile applications for iOS and Android using Flutter. Native performance with a single codebase.
+        - generic [ref=e130]:
+          - paragraph [ref=e131]: Tech Stack
+          - generic [ref=e132]:
+            - generic [ref=e133]: Flutter
+            - generic [ref=e134]: Dart
+            - generic [ref=e135]: REST APIs
+            - generic [ref=e136]: Firebase
+    - generic [ref=e137]:
+      - paragraph [ref=e138]: Got a project in mind? Let's talk about it.
+      - link "Start a Project →" [ref=e139]:
+        - /url: "#contact"
+  - generic [ref=e142]:
+    - generic [ref=e143]:
+      - img "Logeshwaran K" [ref=e145]
+      - generic: "3.5"
+      - generic [ref=e148]: Logeshwaran K · Salem, TN
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - generic [ref=e151]: "02"
+        - generic [ref=e153]: About Me
+      - heading "CRAFTING DIGITAL EXPERIENCES" [level=2] [ref=e154]:
+        - text: CRAFTING
+        - text: DIGITAL
+        - text: EXPERIENCES
+      - paragraph [ref=e155]:
+        - text: I'm a Fullstack Developer with
+        - strong [ref=e156]: 3.5 years
+        - text: of experience building end-to-end web and mobile applications — from responsive React/Next.js frontends to robust Node.js and NestJS backends.
+      - paragraph [ref=e157]: I've shipped CRM systems, hospital schedulers, e-commerce tools, and automation scripts — always focused on clean code, measurable outcomes, and on-time delivery.
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - paragraph [ref=e160]: Location
+          - paragraph [ref=e161]: Salem, TamilNadu
+        - generic [ref=e162]:
+          - paragraph [ref=e163]: Experience
+          - paragraph [ref=e164]: 3.5 Years
+        - generic [ref=e165]:
+          - paragraph [ref=e166]: Current Role
+          - paragraph [ref=e167]: Full Stack Dev @ Samera
+        - generic [ref=e168]:
+          - paragraph [ref=e169]: Email
+          - link "logeshl7086@gmail.com" [ref=e170]:
+            - /url: mailto:logeshl7086@gmail.com
+  - generic [ref=e172]:
+    - generic [ref=e173]:
+      - generic [ref=e174]: "03"
+      - generic [ref=e176]: Skills & Technologies
+    - generic [ref=e177]:
+      - heading "TOOLS I WORK WITH" [level=2] [ref=e179]:
+        - text: TOOLS
+        - text: I WORK
+        - text: WITH
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - paragraph [ref=e182]: Frontend
+          - generic [ref=e183]:
+            - generic [ref=e184]: HTML5
+            - generic [ref=e185]: CSS3
+            - generic [ref=e186]: JavaScript
+            - generic [ref=e187]: React
+            - generic [ref=e188]: Next.js
+            - generic [ref=e189]: Tailwind CSS
+            - generic [ref=e190]: Bootstrap
+            - generic [ref=e191]: Flutter
+        - generic [ref=e192]:
+          - paragraph [ref=e193]: Backend
+          - generic [ref=e194]:
+            - generic [ref=e195]: Node.js
+            - generic [ref=e196]: NestJS
+            - generic [ref=e197]: Express.js
+            - generic [ref=e198]: REST APIs
+            - generic [ref=e199]: Python
+            - generic [ref=e200]: Flask
+        - generic [ref=e201]:
+          - paragraph [ref=e202]: Databases & ORM
+          - generic [ref=e203]:
+            - generic [ref=e204]: MySQL
+            - generic [ref=e205]: PostgreSQL
+            - generic [ref=e206]: MariaDB
+            - generic [ref=e207]: Prisma ORM
+            - generic [ref=e208]: Sequelize ORM
+        - generic [ref=e209]:
+          - paragraph [ref=e210]: Cloud & Tools
+          - generic [ref=e211]:
+            - generic [ref=e212]: Git
+            - generic [ref=e213]: GitHub
+            - generic [ref=e214]: AWS
+            - generic [ref=e215]: Ali Cloud
+            - generic [ref=e216]: Figma
+  - generic [ref=e218]:
+    - generic [ref=e219]:
+      - generic [ref=e220]: "04"
+      - generic [ref=e222]: Work Experience
+    - generic [ref=e223]:
+      - heading "WORK HISTORY" [level=2] [ref=e225]:
+        - text: WORK
+        - text: HISTORY
+      - generic [ref=e226]:
+        - generic [ref=e228]:
+          - generic [ref=e230]:
+            - paragraph [ref=e231]: Sep 2025 — Present
+            - generic [ref=e232]: Current
+          - heading "Full Stack Developer" [level=3] [ref=e233]
+          - paragraph [ref=e234]: Samera — Full-time — On-site
+          - paragraph [ref=e235]: Building full-stack applications with scalable architecture and production deployment — working with NestJS and Prisma ORM on backend services.
+          - generic [ref=e236]:
+            - generic [ref=e237]: NestJS
+            - generic [ref=e238]: Prisma ORM
+            - generic [ref=e239]: Node.js
+            - generic [ref=e240]: REST APIs
+        - generic [ref=e241]:
+          - paragraph [ref=e243]: Jan 2024 — Aug 2025 · 1 yr 8 mos
+          - heading "Junior Developer" [level=3] [ref=e244]
+          - paragraph [ref=e245]: Incisive Design and Business Solutions — Full-time — Coimbatore, Tamil Nadu
+          - list [ref=e246]:
+            - listitem [ref=e247]: — Full-stack web apps with Next.js and responsive frontend interfaces.
+            - listitem [ref=e248]: — Backend services using Node.js, Flask, and Python per project needs.
+            - listitem [ref=e249]: — PostgreSQL and MariaDB with Sequelize ORM for data management.
+            - listitem [ref=e250]: — Server deployment, configuration, and cross-platform mobile apps with Flutter.
+          - generic [ref=e251]:
+            - generic [ref=e252]: Next.js
+            - generic [ref=e253]: Node.js
+            - generic [ref=e254]: PostgreSQL
+            - generic [ref=e255]: Flutter
+            - generic [ref=e256]: Python
+        - generic [ref=e257]:
+          - paragraph [ref=e259]: Dec 2022 — Dec 2023 · 1 yr 1 mo
+          - heading "Associate Developer" [level=3] [ref=e260]
+          - paragraph [ref=e261]: Incisive Design and Business Solutions — Full-time — Coimbatore, Tamil Nadu
+          - list [ref=e262]:
+            - listitem [ref=e263]: — Full-stack development across frontend (React, Tailwind) and backend (Node.js).
+            - listitem [ref=e264]: — MySQL database design and efficient SQL queries.
+            - listitem [ref=e265]: — REST API integration, JSON data handling, and bug fixing.
+          - generic [ref=e266]:
+            - generic [ref=e267]: React
+            - generic [ref=e268]: Node.js
+            - generic [ref=e269]: MySQL
+            - generic [ref=e270]: Tailwind CSS
+        - paragraph [ref=e272]: Education
+        - generic [ref=e273]:
+          - paragraph [ref=e275]: Mar 2024 — Present
+          - heading "Master of Computer Applications — MCA" [level=3] [ref=e276]
+          - paragraph [ref=e277]: Anna University Chennai
+        - generic [ref=e278]:
+          - paragraph [ref=e280]: "2019 — 2022 · Grade: 82.3%"
+          - heading "B.Sc Computer Science" [level=3] [ref=e281]
+          - paragraph [ref=e282]: Lakshmi Bangaru Arts and Science College, Salem
+  - generic [ref=e284]:
+    - generic [ref=e285]:
+      - generic [ref=e286]: "05"
+      - generic [ref=e288]: Selected Projects
+    - generic [ref=e289]:
+      - generic [ref=e291]:
+        - generic [ref=e292]:
+          - generic [ref=e293]:
+            - generic [ref=e294]: "01"
+            - text: Incisive Design & Business Solutions
+          - generic [ref=e295]: Dec 2023 — Jan 2025
+        - generic [ref=e296]:
+          - generic [ref=e297]:
+            - heading "ZACRM — Zaapko CRM" [level=3] [ref=e298]
+            - paragraph [ref=e299]: CRM system for supplier tracking, buyer mapping, and order management. Automated PO and invoice workflows — reduced manual effort by 30%, increased efficiency by 40%, and achieved 80% uptime via AWS and Ali Cloud.
+          - generic [ref=e301]:
+            - generic [ref=e302]: Next.js
+            - generic [ref=e303]: Node.js
+            - generic [ref=e304]: MySQL
+            - generic [ref=e305]: AWS
+            - generic [ref=e306]: Ali Cloud
+            - generic [ref=e307]: Tailwind CSS
+      - generic [ref=e309]:
+        - generic [ref=e310]:
+          - generic [ref=e311]: "02"
+          - text: Incisive Design & Business Solutions
+        - paragraph [ref=e312]: Dec 2024 — Aug 2025
+        - heading "aiop" [level=3] [ref=e313]
+        - paragraph [ref=e314]: Solo developer — end-to-end implementation from architecture to production. Full-stack dev, deployment, documentation, and direct coordination with CEO.
+        - generic [ref=e315]:
+          - generic [ref=e316]: Full-Stack
+          - generic [ref=e317]: Deployment
+          - generic [ref=e318]: Solo Dev
+      - generic [ref=e320]:
+        - generic [ref=e321]:
+          - generic [ref=e322]: "03"
+          - text: Incisive Design & Business Solutions
+        - paragraph [ref=e323]: Jan 2023 — Apr 2023
+        - heading "AMS — Appointment Management System" [level=3] [ref=e324]
+        - paragraph [ref=e325]: Hospital scheduler for appointments and doctor availability. REST APIs + responsive UI. Delivered 15% ahead of schedule.
+        - generic [ref=e326]:
+          - generic [ref=e327]: Next.js
+          - generic [ref=e328]: Node.js
+          - generic [ref=e329]: MySQL
+      - generic [ref=e331]:
+        - generic [ref=e332]:
+          - generic [ref=e333]: "04"
+          - text: Incisive Design & Business Solutions
+        - paragraph [ref=e334]: Aug 2023
+        - heading "Web Scraper Tool" [level=3] [ref=e335]
+        - paragraph [ref=e336]: Python scraper for Zaapko Indonesia extracting product pricing. Saved 60–80% of manual comparison time.
+        - generic [ref=e337]:
+          - generic [ref=e338]: Python
+          - generic [ref=e339]: Web Scraping
+          - generic [ref=e340]: Automation
+      - generic [ref=e342]:
+        - generic [ref=e343]:
+          - generic [ref=e344]: "05"
+          - text: Incisive Design & Business Solutions
+        - paragraph [ref=e345]: Dec 2022 — May 2023
+        - heading "ilesa — Expenses Management" [level=3] [ref=e346]
+        - paragraph [ref=e347]: Expense app with payment integration. Field executive supporting 200+ users in Kanyakumari. QA testing and requirement analysis.
+        - generic [ref=e348]:
+          - generic [ref=e349]: Project Mgmt
+          - generic [ref=e350]: QA Testing
+          - generic [ref=e351]: Payments
+  - generic [ref=e353]:
+    - generic [ref=e354]:
+      - generic [ref=e355]: "06"
+      - generic [ref=e357]: Certifications
+    - generic [ref=e358]:
+      - generic [ref=e359]:
+        - heading "CREDEN TIALS" [level=2] [ref=e360]:
+          - text: CREDEN
+          - text: TIALS
+        - paragraph [ref=e361]: Verified credentials from HackerRank, FreeCodeCamp, Udemy, and HCL GUVI.
+      - generic [ref=e362]:
+        - generic [ref=e363]:
+          - generic [ref=e364]:
+            - generic [ref=e365]: H
+            - generic [ref=e366]:
+              - paragraph [ref=e367]: Frontend Developer
+              - paragraph [ref=e368]: HackerRank · May 2025
+          - generic [ref=e369]: 
+        - generic [ref=e370]:
+          - generic [ref=e371]:
+            - generic [ref=e372]: H
+            - generic [ref=e373]:
+              - paragraph [ref=e374]: SQL Intermediate
+              - paragraph [ref=e375]: HackerRank · Aug 2023
+          - generic [ref=e376]: 
+        - generic [ref=e377]:
+          - generic [ref=e378]:
+            - generic [ref=e379]: H
+            - generic [ref=e380]:
+              - paragraph [ref=e381]: SQL Basic
+              - paragraph [ref=e382]: HackerRank · Aug 2023
+          - generic [ref=e383]: 
+        - generic [ref=e384]:
+          - generic [ref=e385]:
+            - generic [ref=e386]: H
+            - generic [ref=e387]:
+              - paragraph [ref=e388]: JavaScript (Basics)
+              - paragraph [ref=e389]: "HackerRank · ID: 1fdb6f4bd241"
+          - generic [ref=e390]: 
+        - generic [ref=e391]:
+          - generic [ref=e392]:
+            - generic [ref=e393]: H
+            - generic [ref=e394]:
+              - paragraph [ref=e395]: React (Basics)
+              - paragraph [ref=e396]: "HackerRank · ID: a6b5ddbc8a69"
+          - generic [ref=e397]: 
+        - generic [ref=e398]:
+          - generic [ref=e399]:
+            - generic [ref=e400]: F
+            - generic [ref=e401]:
+              - paragraph [ref=e402]: Responsive Web Design
+              - paragraph [ref=e403]: FreeCodeCamp · Jun 2023
+          - generic [ref=e404]: 
+        - generic [ref=e405]:
+          - generic [ref=e406]:
+            - generic [ref=e407]: U
+            - generic [ref=e408]:
+              - paragraph [ref=e409]: jQuery
+              - paragraph [ref=e410]: Udemy · Aug 2022
+          - generic [ref=e411]: 
+        - generic [ref=e412]:
+          - generic [ref=e413]:
+            - generic [ref=e414]: G
+            - generic [ref=e415]:
+              - paragraph [ref=e416]: Python
+              - paragraph [ref=e417]: HCL GUVI · Aug 2022
+          - generic [ref=e418]: 
+  - generic [ref=e419]:
+    - generic [ref=e421]:
+      - generic [ref=e422]: "07"
+      - generic [ref=e424]: Recommendations
+    - generic [ref=e426]:
+      - generic [ref=e427]:
+        - paragraph [ref=e428]: "\""
+        - paragraph [ref=e429]: He has shown an impressive ability to pick up new frameworks and tools quickly, consistently evolving his skillset. A very respectful and pleasant person to work with.
+        - generic [ref=e430]:
+          - paragraph [ref=e431]: Sakthitharan Subramanian
+          - paragraph [ref=e432]: Asst. Professor · AI Researcher
+      - generic [ref=e433]:
+        - paragraph [ref=e434]: "\""
+        - paragraph [ref=e435]: Technical expertise spans a wide range of technologies. He excels in quickly grasping new concepts and applying them to solve complex problems — contributions are always innovative.
+        - generic [ref=e436]:
+          - paragraph [ref=e437]: Aravinth J
+          - paragraph [ref=e438]: Software Engineer · .NET · React
+      - generic [ref=e439]:
+        - paragraph [ref=e440]: "\""
+        - paragraph [ref=e441]: Logesh has very good skills in developing tools, especially CRM systems. He built various features that made the system comfortable for users. Skills applicable wherever he works.
+        - generic [ref=e442]:
+          - paragraph [ref=e443]: Nidi Annisa Riva
+          - paragraph [ref=e444]: Program & Ops · E-Commerce
+      - generic [ref=e445]:
+        - paragraph [ref=e446]: "\""
+        - paragraph [ref=e447]: Logesh is an exceptional developer who delivers beyond expectations. His dedication and technical depth make him a reliable choice for any challenging project.
+        - generic [ref=e448]:
+          - paragraph [ref=e449]: Sivaramakrishnan K
+          - paragraph [ref=e450]: Senior Developer · Tech Lead
+      - generic [ref=e451]:
+        - paragraph [ref=e452]: "\""
+        - paragraph [ref=e453]: Working with Logesh was smooth and productive. He communicates clearly, understands requirements quickly, and consistently delivers quality work on time.
+        - generic [ref=e454]:
+          - paragraph [ref=e455]: Priya Dharshini
+          - paragraph [ref=e456]: Project Manager · Product Lead
+      - generic [ref=e457]:
+        - paragraph [ref=e458]: "\""
+        - paragraph [ref=e459]: He has shown an impressive ability to pick up new frameworks and tools quickly, consistently evolving his skillset. A very respectful and pleasant person to work with.
+        - generic [ref=e460]:
+          - paragraph [ref=e461]: Sakthitharan Subramanian
+          - paragraph [ref=e462]: Asst. Professor · AI Researcher
+      - generic [ref=e463]:
+        - paragraph [ref=e464]: "\""
+        - paragraph [ref=e465]: Technical expertise spans a wide range of technologies. He excels in quickly grasping new concepts and applying them to solve complex problems — contributions are always innovative.
+        - generic [ref=e466]:
+          - paragraph [ref=e467]: Aravinth J
+          - paragraph [ref=e468]: Software Engineer · .NET · React
+      - generic [ref=e469]:
+        - paragraph [ref=e470]: "\""
+        - paragraph [ref=e471]: Logesh has very good skills in developing tools, especially CRM systems. He built various features that made the system comfortable for users. Skills applicable wherever he works.
+        - generic [ref=e472]:
+          - paragraph [ref=e473]: Nidi Annisa Riva
+          - paragraph [ref=e474]: Program & Ops · E-Commerce
+      - generic [ref=e475]:
+        - paragraph [ref=e476]: "\""
+        - paragraph [ref=e477]: Logesh is an exceptional developer who delivers beyond expectations. His dedication and technical depth make him a reliable choice for any challenging project.
+        - generic [ref=e478]:
+          - paragraph [ref=e479]: Sivaramakrishnan K
+          - paragraph [ref=e480]: Senior Developer · Tech Lead
+      - generic [ref=e481]:
+        - paragraph [ref=e482]: "\""
+        - paragraph [ref=e483]: Working with Logesh was smooth and productive. He communicates clearly, understands requirements quickly, and consistently delivers quality work on time.
+        - generic [ref=e484]:
+          - paragraph [ref=e485]: Priya Dharshini
+          - paragraph [ref=e486]: Project Manager · Product Lead
+  - generic [ref=e488]:
+    - generic [ref=e489]:
+      - paragraph [ref=e490]: 08 — Open to Work
+      - heading "HIRE ME." [level=2] [ref=e491]
+      - paragraph [ref=e492]: Available for freelance projects, contract work, and full-time opportunities. I build static websites, web applications, and cross-platform mobile apps.
+      - generic [ref=e493]:
+        - link "Let's Work Together " [ref=e494]:
+          - /url: mailto:logeshl7086@gmail.com
+          - text: Let's Work Together
+          - generic [ref=e495]: 
+        - link " LinkedIn" [ref=e496]:
+          - /url: https://www.linkedin.com/in/logeshwaran1803
+          - generic [ref=e497]: 
+          - text: LinkedIn
+    - generic [ref=e498]:
+      - generic [ref=e499]:
+        - link " logeshl7086@gmail.com " [ref=e500]:
+          - /url: mailto:logeshl7086@gmail.com
+          - generic [ref=e501]:
+            - generic [ref=e502]: 
+            - generic [ref=e503]: logeshl7086@gmail.com
+          - generic [ref=e504]: 
+        - link " +91 93843 73859 " [ref=e505]:
+          - /url: tel:+919384373859
+          - generic [ref=e506]:
+            - generic [ref=e507]: 
+            - generic [ref=e508]: +91 93843 73859
+          - generic [ref=e509]: 
+        - link " linkedin.com/in/logeshwaran1803 " [ref=e510]:
+          - /url: https://www.linkedin.com/in/logeshwaran1803
+          - generic [ref=e511]:
+            - generic [ref=e512]: 
+            - generic [ref=e513]: linkedin.com/in/logeshwaran1803
+          - generic [ref=e514]: 
+        - link " WhatsApp " [ref=e515]:
+          - /url: https://wa.me/+919384373859?text=Hi,Logeshwaran
+          - generic [ref=e516]:
+            - generic [ref=e517]: 
+            - generic [ref=e518]: WhatsApp
+          - generic [ref=e519]: 
+        - link " Instagram " [ref=e520]:
+          - /url: https://instagram.com/_mr_sighting_killar_
+          - generic [ref=e521]:
+            - generic [ref=e522]: 
+            - generic [ref=e523]: Instagram
+          - generic [ref=e524]: 
+      - generic [ref=e525]:
+        - paragraph [ref=e526]: I can help you with
+        - generic [ref=e527]:
+          - generic [ref=e530]: Static Website Development
+          - generic [ref=e533]: Full-Stack Web Application
+          - generic [ref=e536]: Cross-Platform Mobile App (Flutter)
+          - generic [ref=e539]: REST API Development & Integration
+          - generic [ref=e542]: Database Design & Optimisation
+          - generic [ref=e545]: UI/UX Implementation
+  - contentinfo [ref=e546]:
+    - generic [ref=e547]:
+      - generic [ref=e548]: LK.
+      - generic [ref=e549]: © 2025 Logeshwaran K — Built with precision.
+      - link "↑ Back to top" [ref=e550]:
+        - /url: "#hero"

@@ -1,0 +1,285 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "LK." [ref=e4]:
+        - /url: "#hero"
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "About" [ref=e7]:
+            - /url: "#about"
+        - listitem [ref=e8]:
+          - link "Skills" [ref=e9]:
+            - /url: "#skills"
+        - listitem [ref=e10]:
+          - link "Experience" [ref=e11]:
+            - /url: "#experience"
+        - listitem [ref=e12]:
+          - link "Projects" [ref=e13]:
+            - /url: "#projects"
+        - listitem [ref=e14]:
+          - link "Contact" [ref=e15]:
+            - /url: "#contact"
+  - generic [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e19]: Fullstack Developer / Portfolio '25
+      - generic [ref=e20]: Open to Work
+    - generic [ref=e22]:
+      - heading "LOGESH WARAN K" [level=1] [ref=e23]:
+        - generic [ref=e25]: LOGESH
+        - generic [ref=e27]: WARAN K
+      - paragraph [ref=e30]
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: "3.5"
+            - paragraph [ref=e37]: Years Exp.
+          - generic [ref=e38]:
+            - paragraph [ref=e39]: 10+
+            - paragraph [ref=e40]: Projects Built
+          - generic [ref=e41]:
+            - paragraph [ref=e42]: TN
+            - paragraph [ref=e43]: Salem, India
+        - generic [ref=e44]:
+          - link "View Work" [ref=e45]:
+            - /url: "#projects"
+          - link "Let's Talk" [ref=e46]:
+            - /url: "#contact"
+      - generic [ref=e49]: Scroll
+  - generic [ref=e51]:
+    - generic [ref=e52]: FULLSTACK DEVELOPER
+    - generic [ref=e53]: ✦
+    - generic [ref=e54]: REACT
+    - generic [ref=e55]: ✦
+    - generic [ref=e56]: NODE.JS
+    - generic [ref=e57]: ✦
+    - generic [ref=e58]: MYSQL
+    - generic [ref=e59]: ✦
+    - generic [ref=e60]: RESTFUL APIs
+    - generic [ref=e61]: ✦
+    - generic [ref=e62]: UI/UX DESIGN
+    - generic [ref=e63]: ✦
+    - generic [ref=e64]: TAILWIND CSS
+    - generic [ref=e65]: ✦
+    - generic [ref=e66]: FULLSTACK DEVELOPER
+    - generic [ref=e67]: ✦
+    - generic [ref=e68]: REACT
+    - generic [ref=e69]: ✦
+    - generic [ref=e70]: NODE.JS
+    - generic [ref=e71]: ✦
+    - generic [ref=e72]: MYSQL
+    - generic [ref=e73]: ✦
+    - generic [ref=e74]: RESTFUL APIs
+    - generic [ref=e75]: ✦
+    - generic [ref=e76]: UI/UX DESIGN
+    - generic [ref=e77]: ✦
+    - generic [ref=e78]: TAILWIND CSS
+    - generic [ref=e79]: ✦
+  - generic [ref=e82]:
+    - generic [ref=e83]:
+      - img "Logeshwaran K" [ref=e85]
+      - generic: "3.5"
+      - generic [ref=e88]: Logeshwaran K
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e91]: "01"
+        - generic [ref=e93]: About Me
+      - heading "CRAFTING DIGITAL EXPERIENCES" [level=2] [ref=e94]:
+        - text: CRAFTING
+        - text: DIGITAL
+        - text: EXPERIENCES
+      - paragraph [ref=e95]:
+        - text: I'm a Fullstack Developer with
+        - strong [ref=e96]: 3.5 years
+        - text: of experience building end-to-end web applications — from pixel-precise UIs to scalable backend architectures.
+      - paragraph [ref=e97]: I care about clean code, intuitive design, and shipping products that users actually love. Based in Salem, TamilNadu — collaborating with teams globally.
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - paragraph [ref=e100]: Location
+          - paragraph [ref=e101]: Salem, TamilNadu
+        - generic [ref=e102]:
+          - paragraph [ref=e103]: Experience
+          - paragraph [ref=e104]: 3.5 Years
+        - generic [ref=e105]:
+          - paragraph [ref=e106]: Specialty
+          - paragraph [ref=e107]: Fullstack Development
+        - generic [ref=e108]:
+          - paragraph [ref=e109]: Email
+          - link "logeshl7086@gmail.com" [ref=e110]:
+            - /url: mailto:logeshl7086@gmail.com
+  - generic [ref=e112]:
+    - generic [ref=e113]:
+      - generic [ref=e114]: "02"
+      - generic [ref=e116]: Skills & Technologies
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - heading "TOOLS I WORK WITH" [level=2] [ref=e119]:
+          - text: TOOLS
+          - text: I WORK
+          - text: WITH
+        - paragraph [ref=e120]: Technologies I use daily to bring ideas from concept to production.
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - paragraph [ref=e123]: Frontend
+          - generic [ref=e124]:
+            - generic [ref=e125]: HTML5
+            - generic [ref=e126]: CSS3
+            - generic [ref=e127]: JavaScript
+            - generic [ref=e128]: React
+            - generic [ref=e129]: Tailwind CSS
+        - generic [ref=e130]:
+          - paragraph [ref=e131]: Backend
+          - generic [ref=e132]:
+            - generic [ref=e133]: Node.js
+            - generic [ref=e134]: Express.js
+            - generic [ref=e135]: RESTful APIs
+            - generic [ref=e136]: MySQL
+        - generic [ref=e137]:
+          - paragraph [ref=e138]: Tools & Design
+          - generic [ref=e139]:
+            - generic [ref=e140]: Git
+            - generic [ref=e141]: GitHub
+            - generic [ref=e142]: Figma
+            - generic [ref=e143]: UI/UX Design
+            - generic [ref=e144]: VS Code
+  - generic [ref=e146]:
+    - generic [ref=e147]:
+      - generic [ref=e148]: "03"
+      - generic [ref=e150]: Experience
+    - generic [ref=e151]:
+      - heading "WORK HISTORY" [level=2] [ref=e153]:
+        - text: WORK
+        - text: HISTORY
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - paragraph [ref=e158]: Nov 2022 — Present
+          - heading "Fullstack Developer" [level=3] [ref=e159]
+          - paragraph [ref=e160]: Samera Global · Full-time
+          - paragraph [ref=e161]: Building and maintaining full-stack web applications. Leading frontend development with React, architecting backend APIs with Node.js, and managing MySQL databases. Collaborating cross-functionally to ship scalable, user-focused products.
+          - generic [ref=e162]:
+            - generic [ref=e163]: React
+            - generic [ref=e164]: Node.js
+            - generic [ref=e165]: MySQL
+            - generic [ref=e166]: REST APIs
+            - generic [ref=e167]: JavaScript
+        - generic [ref=e168]:
+          - paragraph [ref=e170]: 2021 — 2022
+          - heading "Frontend Developer" [level=3] [ref=e171]
+          - paragraph [ref=e172]: Previous Role · Full-time
+          - paragraph [ref=e173]: Developed responsive, accessible web interfaces using HTML, CSS, and JavaScript. Integrated RESTful APIs and worked closely with design teams to deliver pixel-accurate, cross-browser experiences.
+          - generic [ref=e174]:
+            - generic [ref=e175]: HTML/CSS
+            - generic [ref=e176]: JavaScript
+            - generic [ref=e177]: REST APIs
+            - generic [ref=e178]: UI/UX
+        - generic [ref=e179]:
+          - paragraph [ref=e181]: 2019 — 2022
+          - heading "MCA — Master of Computer Applications" [level=3] [ref=e182]
+          - paragraph [ref=e183]: Salem, TamilNadu
+          - paragraph [ref=e184]: Specialized in software development, database management, and web technologies. Built a strong foundation in algorithms, data structures, and system design principles.
+  - generic [ref=e186]:
+    - generic [ref=e188]:
+      - generic [ref=e189]: "04"
+      - generic [ref=e191]: Selected Projects
+    - generic [ref=e192]:
+      - generic [ref=e194]:
+        - generic [ref=e195]:
+          - generic [ref=e196]: "01"
+          - generic [ref=e197]: 
+        - heading "E-Commerce Platform" [level=3] [ref=e198]
+        - paragraph [ref=e199]: Full-stack commerce solution with product catalogue, cart, order management, and secure checkout flow.
+        - generic [ref=e200]:
+          - generic [ref=e201]: React
+          - generic [ref=e202]: Node.js
+          - generic [ref=e203]: MySQL
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - generic [ref=e207]: "02"
+          - generic [ref=e208]: 
+        - heading "Task Management App" [level=3] [ref=e209]
+        - paragraph [ref=e210]: Collaborative task manager with drag-and-drop boards, team workspaces, deadlines, and real-time status updates.
+        - generic [ref=e211]:
+          - generic [ref=e212]: React
+          - generic [ref=e213]: REST APIs
+          - generic [ref=e214]: MySQL
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - generic [ref=e218]: "03"
+          - generic [ref=e219]: 
+        - heading "REST API Service" [level=3] [ref=e220]
+        - paragraph [ref=e221]: Scalable RESTful API with JWT auth, rate limiting, request validation, and auto-generated Swagger docs.
+        - generic [ref=e222]:
+          - generic [ref=e223]: Node.js
+          - generic [ref=e224]: Express
+          - generic [ref=e225]: MySQL
+      - generic [ref=e227]:
+        - generic [ref=e228]:
+          - generic [ref=e229]: "04"
+          - generic [ref=e230]: 
+        - generic [ref=e231]:
+          - generic [ref=e232]:
+            - heading "Analytics Dashboard" [level=3] [ref=e233]
+            - paragraph [ref=e234]: Data visualisation platform with real-time charts, customisable widget layouts, and exportable business intelligence reports.
+          - generic [ref=e235]:
+            - generic [ref=e236]: React
+            - generic [ref=e237]: Charts.js
+            - generic [ref=e238]: Node.js
+            - generic [ref=e239]: MySQL
+            - generic [ref=e240]: REST APIs
+      - link " More on GitHub View all projects →" [ref=e242]:
+        - /url: https://github.com
+        - generic [ref=e243]: 
+        - paragraph [ref=e244]: More on GitHub
+        - generic [ref=e245]: View all projects →
+  - generic [ref=e247]:
+    - generic [ref=e248]:
+      - generic [ref=e249]: "05"
+      - generic [ref=e251]: Get in Touch
+    - generic [ref=e252]:
+      - generic [ref=e253]:
+        - heading "LET'S BUILD TOGETHER" [level=2] [ref=e254]:
+          - text: LET'S
+          - text: BUILD
+          - text: TOGETHER
+        - paragraph [ref=e255]: Got a project in mind, want to collaborate, or just want to say hello? My inbox is always open.
+        - link "Send an Email " [ref=e256]:
+          - /url: mailto:logeshl7086@gmail.com
+          - text: Send an Email
+          - generic [ref=e257]: 
+      - generic [ref=e259]:
+        - link " logeshl7086@gmail.com " [ref=e260]:
+          - /url: mailto:logeshl7086@gmail.com
+          - generic [ref=e261]:
+            - generic [ref=e262]: 
+            - generic [ref=e263]: logeshl7086@gmail.com
+          - generic [ref=e264]: 
+        - link " +91 93843 73859 " [ref=e265]:
+          - /url: tel:+919384373859
+          - generic [ref=e266]:
+            - generic [ref=e267]: 
+            - generic [ref=e268]: +91 93843 73859
+          - generic [ref=e269]: 
+        - link " linkedin.com/in/logeshwaran1803 " [ref=e270]:
+          - /url: https://www.linkedin.com/in/logeshwaran1803
+          - generic [ref=e271]:
+            - generic [ref=e272]: 
+            - generic [ref=e273]: linkedin.com/in/logeshwaran1803
+          - generic [ref=e274]: 
+        - link " WhatsApp " [ref=e275]:
+          - /url: https://wa.me/+919384373859?text=Hi,Logeshwaran
+          - generic [ref=e276]:
+            - generic [ref=e277]: 
+            - generic [ref=e278]: WhatsApp
+          - generic [ref=e279]: 
+        - link " Instagram " [ref=e280]:
+          - /url: https://instagram.com/_mr_sighting_killar_
+          - generic [ref=e281]:
+            - generic [ref=e282]: 
+            - generic [ref=e283]: Instagram
+          - generic [ref=e284]: 
+  - contentinfo [ref=e285]:
+    - generic [ref=e286]:
+      - generic [ref=e287]: LK.
+      - generic [ref=e288]: © 2025 LOGESHWARAN K — BUILT WITH PRECISION.
+      - link "↑ Top" [ref=e289]:
+        - /url: "#hero"

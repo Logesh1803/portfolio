@@ -3,159 +3,1056 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="image/favicon.ico" rel="icon">
-    <link href="image/apple-touch-icon.png" rel="apple-touch-icon">
-    <title>Portfolio</title>
+    <meta name="description" content="Logeshwaran K — Fullstack Developer available for hire. Next.js · Node.js · NestJS · React · MySQL.">
+    <title>Logeshwaran K — Fullstack Developer</title>
+    <link rel="icon" href="image/favicon.ico">
+    <link rel="apple-touch-icon" href="image/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Outfit', 'sans-serif'],
+                        sans:    ['"Plus Jakarta Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://use.fontawesome.com/ebb9382a34.js"></script>
 </head>
-<body>
-    <main>
+<body class="bg-black text-white font-sans overflow-x-hidden">
 
-        <section id="header_1">
-            <header id="header" class="fixed-top">
-                <div class="container d-flex align-items-center">
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+    <div id="scroll-progress"></div>
 
-                    <div class="logo mr-auto">
-                        <h4 class="navbar-brand text-white" ><a href="index.html" style="text-decoration: none; color: white;">LOGESH</a></h4>
-                    <!-- <a href="index.html"><img class="navbar-brand" src="assets/img/logo_idbs.png" alt="Your Logo"></a> -->
-                    </div>
+    <!-- Floating Hire Me -->
+    <a href="#contact" id="hire-float"
+       class="fixed bottom-8 right-6 z-50 text-xs font-semibold tracking-wide bg-white text-black px-5 py-3 flex items-center gap-2 opacity-0 translate-y-4 transition-all duration-500 hover:bg-white/90 shadow-[0_8px_32px_rgba(255,255,255,0.15)]">
+        <span class="w-1.5 h-1.5 rounded-full bg-black inline-block animate-pulse"></span>
+        Hire Me
+    </a>
 
-                    <nav class="nav-menu d-none d-lg-block">
-                    <ul>
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <!-- <li><a href="#about">About</a></li> -->
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#footer">Contact</a></li>
-                    </ul>
-                    </nav>
-                </div>
-            </header>
-        </section>
-        <section id="intro" class="d-flex align-items-center">
-            <div class="container" data-aos="zoom-in" data-aos-delay="100">          
-              <div class="row">
-                <div class="col-lg-8 pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
-                  <h1 class="title">Hi, I'm Logeshwaran K</h1>
-                  <p class="description">
-                    Experienced Front-End Developer with a passion for crafting responsive and visually appealing web interfaces. Proficient in HTML, CSS, and JavaScript, I specialize in turning design concepts into functional user experiences. With hands-on expertise in MySQL and handling RESTful APIs, I seamlessly integrate back-end data for seamless user interactions. Let's create impactful and intuitive digital solutions together.
-                  </p>
-                  <a href="#skills" class="btn-get-started scrollto">Get to Know Me</a>
-                </div>
-                <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="fade-left">
-                  <img src="image/self_img.jpg" height="100px" class="img-fluid" alt="Your Hero Image">
-                </div>
-              </div>          
-            </div>
-          </section>
-          <section id="skills" class="features">
-            <div class="container">
-          
-              <div class="section-title" data-aos="fade-up">
-                <h2>Skills</h2>
-                <p>Here are some of the skills that I bring to the table.</p>
-              </div>
-          
-              <div class="row">
-                <div class="col-lg-6 order-2 order-lg-1" data-aos="zoom-in">
-                  <div class="icon-box">
-                    <i class="bx bx-code"></i>
-                    <h4>Front-End Development</h4>
-                    <p>I specialize in crafting clean and interactive user interfaces using HTML, CSS, and JavaScript. Transforming design concepts into engaging web experiences is my passion.</p>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                  </div>
-                  
-                  <div class="icon-box">
-                    <i class="bx bx-database"></i>
-                    <h4>MySQL</h4>
-                    <p>With a strong command over MySQL, I can efficiently design and manage databases, ensuring seamless integration of data for robust web applications.</p>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                  </div>
-                </div>
-          
-                <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in">
-                  <div class="icon-box">
-                    <i class="bx bx-api"></i>
-                    <h4>RESTful APIs</h4>
-                    <p>Handling RESTful APIs is second nature to me. I excel in connecting front-end interfaces with back-end services to create dynamic and responsive applications.</p>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                  </div>
-          
-                  <div class="icon-box">
-                    <i class="bx bx-paint"></i>
-                    <h4>UI/UX Design</h4>
-                    <p>I have an eye for design and focus on delivering user-centered experiences. My UI/UX skills ensure that the applications I build are intuitive and visually appealing.</p>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          
-            </div>
-          </section>  
-       
-          
-          
-          <!-- <section id="gallery">
-            <div class="container">
-              <div class="section-title" data-aos="fade-up">
-                <h2>Gallery</h2>
-                <p>Explore my certificates and projects.</p>
-              </div>
-              
-              <div class="row gallery-container">
-                <div class="col-md-6 col-lg-3 gallery-item">
-                  <img src="certificate1.jpg" alt="Certificate 1" class="img-fluid">
-                </div>
-                <div class="col-md-6 col-lg-3 gallery-item">
-                  <img src="certificate2.jpg" alt="Certificate 2" class="img-fluid">
-                </div>
-                <div class="col-md-6 col-lg-3 gallery-item">
-                  <img src="project1.jpg" alt="Project 1" class="img-fluid">
-                </div>
-                <div class="col-md-6 col-lg-3 gallery-item">
-                  <img src="project2.jpg" alt="Project 2" class="img-fluid">
-                </div>
-        
-              </div>
-            </div>
-          </section> -->
-          
-    </main>
-    <footer id="footer" class="footer">
-        <div class="container">
-          <div class="row">
-      
-            <!-- Contact Information -->
-            <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-              <div class="info-box">
-                <ul class="">
-                    <li><i class="fa fa-envelope"></i><span><a class="conatat_dtls" href="mailto:logeshl7680@gmail.com">logeshl7086@gmail.com</a></span></li>
-                    <li><i class="fa fa-phone"></i><span><a class="conatat_dtls" href="tel:+91 9384373859">+91 9384373859</a></span></li>                   
-                    <li><i class="fa fa-map"></i><span>Salem, TamilNadu</span> </li>
-                </ul>
-                <ul class="social-links">
-                    <li><a href="https://www.linkedin.com/in/logeshwaran-k-b184a219b"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a href="https://instagram.com/_mr_sighting_killar_?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://wa.me/+919384373859?text='Hi,Logeshwaran'"><i class="fa fa-whatsapp" ></i></a></li>
-                  </ul>
-              </div>
-            </div>          
-      
-          </div>
+    <!-- ═══════ NAVBAR ═══════════════════════════════════════ -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+            <a href="#hero" class="font-display font-bold text-2xl text-white hover:opacity-70 transition-opacity">
+                LK<span class="text-white/20">.</span>
+            </a>
+            <ul class="hidden md:flex items-center gap-8">
+                <li><a href="#about"       class="text-sm font-medium text-white/55 hover:text-white transition-colors">About</a></li>
+                <li><a href="#services"    class="text-sm font-medium text-white/55 hover:text-white transition-colors">Services</a></li>
+                <li><a href="#experience"  class="text-sm font-medium text-white/55 hover:text-white transition-colors">Experience</a></li>
+                <li><a href="#projects"    class="text-sm font-medium text-white/55 hover:text-white transition-colors">Projects</a></li>
+                <li>
+                    <a href="#contact" class="text-sm font-semibold bg-white text-black px-5 py-2.5 hover:bg-white/85 transition-colors">
+                        Hire Me
+                    </a>
+                </li>
+            </ul>
+            <button id="menu-btn" class="md:hidden text-sm font-medium text-white/60 hover:text-white transition-colors focus:outline-none">
+                <span id="menu-label">Menu</span>
+            </button>
         </div>
-      </footer>
+        <div id="mobile-menu" class="hidden border-t border-white/8 bg-black">
+            <ul class="max-w-7xl mx-auto px-6 py-8 flex flex-col gap-6">
+                <li><a href="#about"       class="mobile-link text-base font-medium text-white/55 hover:text-white transition-colors block">About</a></li>
+                <li><a href="#services"    class="mobile-link text-base font-medium text-white/55 hover:text-white transition-colors block">Services</a></li>
+                <li><a href="#experience"  class="mobile-link text-base font-medium text-white/55 hover:text-white transition-colors block">Experience</a></li>
+                <li><a href="#projects"    class="mobile-link text-base font-medium text-white/55 hover:text-white transition-colors block">Projects</a></li>
+                <li><a href="#contact"     class="mobile-link text-sm font-semibold text-white bg-white/10 px-4 py-2 inline-block">Hire Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ═══════ HERO ═════════════════════════════════════════ -->
+    <section id="hero" class="relative min-h-screen flex flex-col justify-between overflow-hidden px-6 md:px-10 lg:px-16 pt-28 pb-12">
+        <div class="grain-overlay"></div>
+
+        <!-- Badge -->
+        <div class="relative z-10 flex items-center gap-3">
+            <span class="flex items-center gap-2 text-xs font-medium text-white/50 border border-white/14 px-3 py-1.5">
+                <span class="w-1.5 h-1.5 rounded-full bg-white/60 inline-block animate-pulse"></span>
+                Available for Hire
+            </span>
+            <span class="text-xs text-white/25">/ Salem, TN</span>
+        </div>
+
+        <!-- Name -->
+        <div class="relative z-10">
+            <h1 class="font-display font-bold text-white select-none" style="font-size: clamp(64px, 13vw, 200px); line-height: 0.88;">
+                <span class="hero-line"><span class="hero-line-inner d1">LOGESH</span></span>
+                <span class="hero-line"><span class="hero-line-inner d2">WARAN K</span></span>
+            </h1>
+
+            <!-- Typed role -->
+            <div class="flex items-center gap-3 mt-7 hero-line-inner d3">
+                <div class="w-8 h-px bg-white/30"></div>
+                <p class="text-base text-white/60">
+                    <span id="typed-text"></span><span class="type-cursor"></span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Stats + CTAs -->
+        <div class="relative z-10">
+            <div class="flex gap-10 md:gap-16 mb-9 hero-line-inner d4">
+                <div>
+                    <p class="font-display font-bold text-white" style="font-size: clamp(32px, 4vw, 54px); line-height:1">3.5</p>
+                    <p class="text-xs font-medium text-white/35 tracking-wide mt-1.5">Yrs Experience</p>
+                </div>
+                <div>
+                    <p class="font-display font-bold text-white" style="font-size: clamp(32px, 4vw, 54px); line-height:1">5+</p>
+                    <p class="text-xs font-medium text-white/35 tracking-wide mt-1.5">Projects</p>
+                </div>
+                <div>
+                    <p class="font-display font-bold text-white" style="font-size: clamp(32px, 4vw, 54px); line-height:1">8+</p>
+                    <p class="text-xs font-medium text-white/35 tracking-wide mt-1.5">Certifications</p>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap gap-3 hero-line-inner d5">
+                <a href="#contact"
+                   class="text-sm font-semibold bg-white text-black px-8 py-3.5 hover:bg-white/88 transition-colors inline-flex items-center gap-2">
+                    Hire Me
+                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                </a>
+                <a href="#projects"
+                   class="text-sm font-medium border border-white/25 px-8 py-3.5 hover:border-white/55 transition-colors">
+                    View Work
+                </a>
+            </div>
+
+            <div class="flex items-center gap-3 mt-10 hero-line-inner d5" style="animation-delay:1s">
+                <div class="scroll-line"></div>
+                <span class="text-xs font-medium text-white/22 tracking-[0.18em] uppercase">Scroll</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ MARQUEE ══════════════════════════════════════ -->
+    <div class="border-y border-white/8 py-4 overflow-hidden">
+        <div class="marquee-track">
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">FULLSTACK DEVELOPER</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">NEXT.JS</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">NODE.JS</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">NESTJS</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">REACT</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">FLUTTER</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">MYSQL · POSTGRESQL</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">TAILWIND CSS</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">FULLSTACK DEVELOPER</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">NEXT.JS</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">NODE.JS</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">NESTJS</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">REACT</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">FLUTTER</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">MYSQL · POSTGRESQL</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+            <span class="text-sm font-semibold tracking-[0.18em] text-white/16 px-8">TAILWIND CSS</span>
+            <span class="text-sm text-white/10 px-4">✦</span>
+        </div>
+    </div>
+
+    <!-- ═══════ SERVICES ═════════════════════════════════════ -->
+    <section id="services" class="py-28 md:py-36 border-b border-white/8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16">
+                <div class="reveal">
+                    <div class="flex items-center gap-3 mb-5">
+                        <span class="text-xs font-medium text-white/30 tracking-[0.2em]">01</span>
+                        <div class="w-6 h-px bg-white/15"></div>
+                        <span class="text-xs font-medium text-white/30 tracking-[0.2em] uppercase">Services</span>
+                    </div>
+                    <h2 class="font-display font-bold text-white leading-[0.9]" style="font-size: clamp(52px, 7vw, 96px)">
+                        WHAT I<br>BUILD
+                    </h2>
+                </div>
+                <p class="reveal d1 text-base text-white/55 leading-[1.85] max-w-xs">
+                    End-to-end development across web and mobile — from landing pages to full-scale applications.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-0 border border-white/10">
+                <!-- 01 Static Website -->
+                <div class="reveal service-card group border-r border-white/10 p-8 md:p-10 flex flex-col gap-6 hover:bg-white/[0.03] transition-colors duration-300">
+                    <div class="flex items-start justify-between">
+                        <span class="font-display font-bold text-[5rem] leading-none text-white/6 group-hover:text-white/10 transition-colors select-none">01</span>
+                        <i class="fa-solid fa-globe text-white/25 group-hover:text-white/55 transition-colors mt-2 text-lg"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white mb-3" style="font-size: clamp(20px, 2.2vw, 30px)">Static Website</h3>
+                        <p class="text-sm text-white/55 leading-[1.85]">
+                            Fast, SEO-friendly static websites for businesses, portfolios, and landing pages. Pixel-perfect designs that load instantly.
+                        </p>
+                    </div>
+                    <div class="mt-auto pt-6 border-t border-white/8">
+                        <p class="text-[0.65rem] font-semibold text-white/30 tracking-[0.14em] uppercase mb-3">Tech Stack</p>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="skill-tag-sm">HTML5</span>
+                            <span class="skill-tag-sm">Tailwind CSS</span>
+                            <span class="skill-tag-sm">JavaScript</span>
+                            <span class="skill-tag-sm">Next.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 02 Web Application -->
+                <div class="reveal d1 service-card group border-r border-white/10 p-8 md:p-10 flex flex-col gap-6 hover:bg-white/[0.03] transition-colors duration-300">
+                    <div class="flex items-start justify-between">
+                        <span class="font-display font-bold text-[5rem] leading-none text-white/6 group-hover:text-white/10 transition-colors select-none">02</span>
+                        <i class="fa-solid fa-code text-white/25 group-hover:text-white/55 transition-colors mt-2 text-lg"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white mb-3" style="font-size: clamp(20px, 2.2vw, 30px)">Web Application</h3>
+                        <p class="text-sm text-white/55 leading-[1.85]">
+                            Full-stack web applications — CRMs, dashboards, e-commerce platforms, and SaaS products with secure APIs and modern UI.
+                        </p>
+                    </div>
+                    <div class="mt-auto pt-6 border-t border-white/8">
+                        <p class="text-[0.65rem] font-semibold text-white/30 tracking-[0.14em] uppercase mb-3">Tech Stack</p>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="skill-tag-sm">React / Next.js</span>
+                            <span class="skill-tag-sm">Node.js</span>
+                            <span class="skill-tag-sm">NestJS</span>
+                            <span class="skill-tag-sm">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 03 Mobile App -->
+                <div class="reveal d2 service-card group p-8 md:p-10 flex flex-col gap-6 hover:bg-white/[0.03] transition-colors duration-300">
+                    <div class="flex items-start justify-between">
+                        <span class="font-display font-bold text-[5rem] leading-none text-white/6 group-hover:text-white/10 transition-colors select-none">03</span>
+                        <i class="fa-solid fa-mobile-screen text-white/25 group-hover:text-white/55 transition-colors mt-2 text-lg"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white mb-3" style="font-size: clamp(20px, 2.2vw, 30px)">Mobile App</h3>
+                        <p class="text-sm text-white/55 leading-[1.85]">
+                            Cross-platform mobile applications for iOS and Android using Flutter. Native performance with a single codebase.
+                        </p>
+                    </div>
+                    <div class="mt-auto pt-6 border-t border-white/8">
+                        <p class="text-[0.65rem] font-semibold text-white/30 tracking-[0.14em] uppercase mb-3">Tech Stack</p>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="skill-tag-sm">Flutter</span>
+                            <span class="skill-tag-sm">Dart</span>
+                            <span class="skill-tag-sm">REST APIs</span>
+                            <span class="skill-tag-sm">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 mt-8 pt-8 border-t border-white/8 reveal">
+                <p class="text-base text-white/55 leading-relaxed">
+                    Got a project in mind? <span class="text-white/80 font-medium">Let's talk about it.</span>
+                </p>
+                <a href="#contact" class="text-sm font-semibold border border-white/25 px-6 py-3 hover:bg-white hover:text-black hover:border-white transition-all duration-300 whitespace-nowrap">
+                    Start a Project →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ ABOUT ════════════════════════════════════════ -->
+    <section id="about" class="py-28 md:py-36">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 md:gap-24 items-center">
+
+                <!-- Image -->
+                <div class="reveal relative">
+                    <div class="relative inline-block w-full max-w-sm mx-auto md:mx-0">
+                        <img src="image/self_img.png" alt="Logeshwaran K"
+                             style="filter: grayscale(1) contrast(1.2) brightness(0.85) saturate(0);"
+                             class="w-full object-cover aspect-[3/4] block">
+                        <div class="absolute -bottom-3 -right-3 w-full h-full border border-white/10 pointer-events-none"></div>
+                    </div>
+                    <span class="absolute -bottom-4 -right-2 font-display font-bold text-[120px] leading-none text-white/[0.03] select-none pointer-events-none">3.5</span>
+                    <div class="flex items-center gap-3 mt-8">
+                        <div class="w-6 h-px bg-white/20"></div>
+                        <span class="text-xs font-medium text-white/35">Logeshwaran K · Salem, TN</span>
+                    </div>
+                </div>
+
+                <!-- Bio -->
+                <div class="reveal d1">
+                    <div class="flex items-center gap-3 mb-10">
+                        <span class="text-xs font-medium text-white/30 tracking-[0.2em]">02</span>
+                        <div class="w-6 h-px bg-white/15"></div>
+                        <span class="text-xs font-medium text-white/30 tracking-[0.2em] uppercase">About Me</span>
+                    </div>
+
+                    <h2 class="font-display font-bold text-white leading-[0.9] mb-8" style="font-size: clamp(48px, 5.5vw, 76px)">
+                        CRAFTING<br>DIGITAL<br>EXPERIENCES
+                    </h2>
+
+                    <p class="text-base text-white/65 leading-[1.85] mb-5">
+                        I'm a Fullstack Developer with <strong class="text-white font-semibold">3.5 years</strong> of experience building end-to-end web and mobile applications — from responsive React/Next.js frontends to robust Node.js and NestJS backends.
+                    </p>
+                    <p class="text-base text-white/65 leading-[1.85] mb-10">
+                        I've shipped CRM systems, hospital schedulers, e-commerce tools, and automation scripts — always focused on clean code, measurable outcomes, and on-time delivery.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-x-8 gap-y-5 border-t border-white/8 pt-8">
+                        <div>
+                            <p class="text-[0.65rem] font-semibold text-white/30 tracking-[0.18em] uppercase mb-1.5">Location</p>
+                            <p class="text-sm font-medium text-white/75">Salem, TamilNadu</p>
+                        </div>
+                        <div>
+                            <p class="text-[0.65rem] font-semibold text-white/30 tracking-[0.18em] uppercase mb-1.5">Experience</p>
+                            <p class="text-sm font-medium text-white/75">3.5 Years</p>
+                        </div>
+                        <div>
+                            <p class="text-[0.65rem] font-semibold text-white/30 tracking-[0.18em] uppercase mb-1.5">Current Role</p>
+                            <p class="text-sm font-medium text-white/75">Full Stack Dev @ Samera</p>
+                        </div>
+                        <div>
+                            <p class="text-[0.65rem] font-semibold text-white/30 tracking-[0.18em] uppercase mb-1.5">Email</p>
+                            <a href="mailto:logeshl7086@gmail.com" class="text-sm font-medium text-white/75 hover:text-white transition-colors">logeshl7086@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ SKILLS ════════════════════════════════════════ -->
+    <section id="skills" class="py-28 md:py-36 border-t border-white/8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center gap-3 mb-16 reveal">
+                <span class="text-xs font-medium text-white/30 tracking-[0.2em]">03</span>
+                <div class="w-6 h-px bg-white/15"></div>
+                <span class="text-xs font-medium text-white/30 tracking-[0.2em] uppercase">Skills & Technologies</span>
+            </div>
+
+            <div class="grid md:grid-cols-[2fr_3fr] gap-16 md:gap-24 items-start">
+                <div class="reveal">
+                    <h2 class="font-display font-bold text-white leading-[0.9]" style="font-size: clamp(48px, 6vw, 80px)">
+                        TOOLS<br>I WORK<br>WITH
+                    </h2>
+                </div>
+
+                <div class="reveal d1 flex flex-col gap-9">
+                    <div>
+                        <p class="text-[0.65rem] font-semibold text-white/30 tracking-[0.18em] uppercase mb-4">Frontend</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Next.js</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                            <span class="skill-tag">Bootstrap</span>
+                            <span class="skill-tag">Flutter</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-[0.65rem] font-semibold text-white/30 tracking-[0.18em] uppercase mb-4">Backend</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">NestJS</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Flask</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-[0.65rem] font-semibold text-white/30 tracking-[0.18em] uppercase mb-4">Databases & ORM</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MariaDB</span>
+                            <span class="skill-tag">Prisma ORM</span>
+                            <span class="skill-tag">Sequelize ORM</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-[0.65rem] font-semibold text-white/30 tracking-[0.18em] uppercase mb-4">Cloud & Tools</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Ali Cloud</span>
+                            <span class="skill-tag">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ EXPERIENCE ═══════════════════════════════════ -->
+    <section id="experience" class="py-28 md:py-36 border-t border-white/8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center gap-3 mb-16 reveal">
+                <span class="text-xs font-medium text-white/30 tracking-[0.2em]">04</span>
+                <div class="w-6 h-px bg-white/15"></div>
+                <span class="text-xs font-medium text-white/30 tracking-[0.2em] uppercase">Work Experience</span>
+            </div>
+
+            <div class="grid md:grid-cols-[2fr_3fr] gap-16 md:gap-24">
+                <div class="reveal">
+                    <h2 class="font-display font-bold text-white leading-[0.9] md:sticky md:top-32" style="font-size: clamp(48px, 6vw, 80px)">
+                        WORK<br>HISTORY
+                    </h2>
+                </div>
+
+                <div class="relative">
+                    <div class="absolute left-0 top-0 bottom-0 w-px bg-white/8"></div>
+
+                    <!-- Samera -->
+                    <div class="pl-8 pb-16 relative reveal">
+                        <div class="absolute left-0 top-1.5 w-2.5 h-2.5 bg-white rounded-full -translate-x-[5px] shadow-[0_0_0_4px_rgba(255,255,255,0.1)]"></div>
+                        <div class="flex flex-wrap items-center gap-3 mb-2">
+                            <p class="text-xs font-medium text-white/40">Sep 2025 — Present</p>
+                            <span class="text-[0.6rem] font-semibold text-white/30 border border-white/14 px-2 py-0.5 tracking-wider uppercase">Current</span>
+                        </div>
+                        <h3 class="font-semibold text-lg text-white mb-1">Full Stack Developer</h3>
+                        <p class="text-sm text-white/45 mb-4">Samera - Full-time - On-site</p>
+                        <p class="text-sm text-white/60 leading-[1.85]">
+                            Building full-stack applications with scalable architecture and production deployment - working with NestJS and Prisma ORM on backend services.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-4">
+                            <span class="skill-tag-sm">NestJS</span>
+                            <span class="skill-tag-sm">Prisma ORM</span>
+                            <span class="skill-tag-sm">Node.js</span>
+                            <span class="skill-tag-sm">REST APIs</span>
+                        </div>
+                    </div>
+
+                    <!-- IDBS Junior -->
+                    <div class="pl-8 pb-16 relative reveal d1">
+                        <div class="absolute left-0 top-1.5 w-2.5 h-2.5 border border-white/30 rounded-full -translate-x-[5px]"></div>
+                        <p class="text-xs font-medium text-white/40 mb-2">Jan 2024 — Aug 2025 · 1 yr 8 mos</p>
+                        <h3 class="font-semibold text-lg text-white mb-1">Junior Developer</h3>
+                        <p class="text-sm text-white/45 mb-4">Incisive Design and Business Solutions - Full-time - Coimbatore, Tamil Nadu</p>
+                        <ul class="text-sm text-white/60 leading-[1.85] space-y-1.5">
+                            <li>- Full-stack web apps with Next.js and responsive frontend interfaces.</li>
+                            <li>- Backend services using Node.js, Flask, and Python per project needs.</li>
+                            <li>- PostgreSQL and MariaDB with Sequelize ORM for data management.</li>
+                            <li>- Server deployment, configuration, and cross-platform mobile apps with Flutter.</li>
+                        </ul>
+                        <div class="flex flex-wrap gap-1.5 mt-4">
+                            <span class="skill-tag-sm">Next.js</span>
+                            <span class="skill-tag-sm">Node.js</span>
+                            <span class="skill-tag-sm">PostgreSQL</span>
+                            <span class="skill-tag-sm">Flutter</span>
+                            <span class="skill-tag-sm">Python</span>
+                        </div>
+                    </div>
+
+                    <!-- IDBS Associate -->
+                    <div class="pl-8 pb-16 relative reveal d2">
+                        <div class="absolute left-0 top-1.5 w-2 h-2 border border-white/20 rounded-full -translate-x-[4px]"></div>
+                        <p class="text-xs font-medium text-white/40 mb-2">Dec 2022 — Dec 2023 · 1 yr 1 mo</p>
+                        <h3 class="font-semibold text-lg text-white mb-1">Associate Developer</h3>
+                        <p class="text-sm text-white/45 mb-4">Incisive Design and Business Solutions - Full-time - Coimbatore, Tamil Nadu</p>
+                        <ul class="text-sm text-white/60 leading-[1.85] space-y-1.5">
+                            <li>- Full-stack development across frontend (React, Tailwind) and backend (Node.js).</li>
+                            <li>- MySQL database design and efficient SQL queries.</li>
+                            <li>- REST API integration, JSON data handling, and bug fixing.</li>
+                        </ul>
+                        <div class="flex flex-wrap gap-1.5 mt-4">
+                            <span class="skill-tag-sm">React</span>
+                            <span class="skill-tag-sm">Node.js</span>
+                            <span class="skill-tag-sm">MySQL</span>
+                            <span class="skill-tag-sm">Tailwind CSS</span>
+                        </div>
+                    </div>
+
+                    <!-- Education divider -->
+                    <div class="pl-8 pt-4 pb-6">
+                        <p class="text-[0.6rem] font-semibold text-white/20 tracking-[0.2em] uppercase border-t border-white/6 pt-4">Education</p>
+                    </div>
+
+                    <div class="pl-8 pb-10 relative reveal">
+                        <div class="absolute left-0 top-1.5 w-2 h-2 border border-white/15 rounded-full -translate-x-[4px]"></div>
+                        <p class="text-xs font-medium text-white/40 mb-1.5">Mar 2024 — Present</p>
+                        <h3 class="font-semibold text-base text-white mb-0.5">Master of Computer Applications — MCA</h3>
+                        <p class="text-sm text-white/40">Anna University Chennai</p>
+                    </div>
+
+                    <div class="pl-8 relative reveal d1">
+                        <div class="absolute left-0 top-1.5 w-2 h-2 border border-white/12 rounded-full -translate-x-[4px]"></div>
+                        <p class="text-xs font-medium text-white/40 mb-1.5">2019 — 2022 · Grade: 82.3%</p>
+                        <h3 class="font-semibold text-base text-white mb-0.5">B.Sc Computer Science</h3>
+                        <p class="text-sm text-white/40">Lakshmi Bangaru Arts and Science College, Salem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ PROJECTS ══════════════════════════════════════ -->
+    <section id="projects" class="py-28 md:py-36 border-t border-white/8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center gap-3 mb-16 reveal">
+                <span class="text-xs font-medium text-white/30 tracking-[0.2em]">05</span>
+                <div class="w-6 h-px bg-white/15"></div>
+                <span class="text-xs font-medium text-white/30 tracking-[0.2em] uppercase">Selected Projects</span>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                <!-- ZACRM — wide -->
+                <div class="proj-card reveal group lg:col-span-2">
+                    <div class="border border-white/10 group-hover:border-white/30 transition-colors duration-300 p-7 h-full">
+                        <div class="flex items-start justify-between mb-5">
+                            <div>
+                                <span class="text-xs font-medium text-white/25 tracking-widest block mb-1.5">01</span>
+                                <span class="text-[0.65rem] font-semibold text-white/60 tracking-wide uppercase border border-white/25 px-2.5 py-0.5">Incisive Design & Business Solutions</span>
+                            </div>
+                            <span class="text-xs text-white/25">Dec 2023 — Jan 2025</span>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div>
+                                <h3 class="font-semibold text-lg text-white mb-3">ZACRM — Zaapko CRM</h3>
+                                <p class="text-sm text-white/60 leading-[1.88]">
+                                    CRM system for supplier tracking, buyer mapping, and order management. Automated PO and invoice workflows — reduced manual effort by <span class="text-white/80 font-medium">30%</span>, increased efficiency by <span class="text-white/80 font-medium">40%</span>, and achieved <span class="text-white/80 font-medium">80% uptime</span> via AWS and Ali Cloud.
+                                </p>
+                            </div>
+                            <div>
+                                <div class="flex flex-wrap gap-1.5">
+                                    <span class="skill-tag-sm">Next.js</span>
+                                    <span class="skill-tag-sm">Node.js</span>
+                                    <span class="skill-tag-sm">MySQL</span>
+                                    <span class="skill-tag-sm">AWS</span>
+                                    <span class="skill-tag-sm">Ali Cloud</span>
+                                    <span class="skill-tag-sm">Tailwind CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- aiop -->
+                <div class="proj-card reveal d1 group">
+                    <div class="border border-white/10 group-hover:border-white/30 transition-colors duration-300 p-7 h-full flex flex-col">
+                        <div class="mb-5">
+                            <span class="text-xs font-medium text-white/25 tracking-widest block mb-1.5">02</span>
+                            <span class="text-[0.65rem] font-semibold text-white/60 tracking-wide uppercase border border-white/25 px-2.5 py-0.5">Incisive Design & Business Solutions</span>
+                        </div>
+                        <p class="text-xs font-medium text-white/30 mb-3">Dec 2024 — Aug 2025</p>
+                        <h3 class="font-semibold text-base text-white mb-3">aiop</h3>
+                        <p class="text-sm text-white/60 leading-[1.88] flex-1">
+                            Solo developer — end-to-end implementation from architecture to production. Full-stack dev, deployment, documentation, and direct coordination with CEO.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-5">
+                            <span class="skill-tag-sm">Full-Stack</span>
+                            <span class="skill-tag-sm">Deployment</span>
+                            <span class="skill-tag-sm">Solo Dev</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AMS -->
+                <div class="proj-card reveal d1 group">
+                    <div class="border border-white/10 group-hover:border-white/30 transition-colors duration-300 p-7 h-full flex flex-col">
+                        <div class="mb-5">
+                            <span class="text-xs font-medium text-white/25 tracking-widest block mb-1.5">03</span>
+                            <span class="text-[0.65rem] font-semibold text-white/60 tracking-wide uppercase border border-white/25 px-2.5 py-0.5">Incisive Design & Business Solutions</span>
+                        </div>
+                        <p class="text-xs font-medium text-white/30 mb-3">Jan 2023 — Apr 2023</p>
+                        <h3 class="font-semibold text-base text-white mb-3">AMS — Appointment Management System</h3>
+                        <p class="text-sm text-white/60 leading-[1.88] flex-1">
+                            Hospital scheduler for appointments and doctor availability. REST APIs + responsive UI. Delivered <span class="text-white/80 font-medium">15% ahead of schedule</span>.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-5">
+                            <span class="skill-tag-sm">Next.js</span>
+                            <span class="skill-tag-sm">Node.js</span>
+                            <span class="skill-tag-sm">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Scraper -->
+                <div class="proj-card reveal d2 group">
+                    <div class="border border-white/10 group-hover:border-white/30 transition-colors duration-300 p-7 h-full flex flex-col">
+                        <div class="mb-5">
+                            <span class="text-xs font-medium text-white/25 tracking-widest block mb-1.5">04</span>
+                            <span class="text-[0.65rem] font-semibold text-white/60 tracking-wide uppercase border border-white/25 px-2.5 py-0.5">Incisive Design & Business Solutions</span>
+                        </div>
+                        <p class="text-xs font-medium text-white/30 mb-3">Aug 2023</p>
+                        <h3 class="font-semibold text-base text-white mb-3">Web Scraper Tool</h3>
+                        <p class="text-sm text-white/60 leading-[1.88] flex-1">
+                            Python scraper for Zaapko Indonesia extracting product pricing. Saved <span class="text-white/80 font-medium">60–80% of manual comparison time</span>.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-5">
+                            <span class="skill-tag-sm">Python</span>
+                            <span class="skill-tag-sm">Web Scraping</span>
+                            <span class="skill-tag-sm">Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ilesa -->
+                <div class="proj-card reveal d2 group">
+                    <div class="border border-white/10 group-hover:border-white/30 transition-colors duration-300 p-7 h-full flex flex-col">
+                        <div class="mb-5">
+                            <span class="text-xs font-medium text-white/25 tracking-widest block mb-1.5">05</span>
+                            <span class="text-[0.65rem] font-semibold text-white/60 tracking-wide uppercase border border-white/25 px-2.5 py-0.5">Incisive Design & Business Solutions</span>
+                        </div>
+                        <p class="text-xs font-medium text-white/30 mb-3">Dec 2022 — May 2023</p>
+                        <h3 class="font-semibold text-base text-white mb-3">ilesa — Expenses Management</h3>
+                        <p class="text-sm text-white/60 leading-[1.88] flex-1">
+                            Expense app with payment integration. Field executive supporting <span class="text-white/80 font-medium">200+ users</span> in Kanyakumari. QA testing and requirement analysis.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-5">
+                            <span class="skill-tag-sm">Project Mgmt</span>
+                            <span class="skill-tag-sm">QA Testing</span>
+                            <span class="skill-tag-sm">Payments</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ CERTIFICATIONS ════════════════════════════════ -->
+    <section id="certifications" class="py-28 md:py-36 border-t border-white/8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center gap-3 mb-16 reveal">
+                <span class="text-xs font-medium text-white/30 tracking-[0.2em]">06</span>
+                <div class="w-6 h-px bg-white/15"></div>
+                <span class="text-xs font-medium text-white/30 tracking-[0.2em] uppercase">Certifications</span>
+            </div>
+
+            <div class="grid md:grid-cols-[2fr_3fr] gap-16 md:gap-24 items-start">
+                <div class="reveal">
+                    <h2 class="font-display font-bold text-white leading-[0.9]" style="font-size: clamp(48px, 6vw, 80px)">
+                        CREDEN<br>TIALS
+                    </h2>
+                    <p class="text-base text-white/55 mt-6 leading-[1.9]">
+                        Verified credentials from HackerRank, FreeCodeCamp, Udemy, and HCL GUVI.
+                    </p>
+                </div>
+
+                <div class="reveal d1 flex flex-col">
+                    <div class="cert-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/20 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <span class="text-xs font-bold text-white/25 w-5 text-center border border-white/12 py-0.5">H</span>
+                            <div>
+                                <p class="text-sm font-medium text-white/70 group-hover:text-white/90 transition-colors">Frontend Developer</p>
+                                <p class="text-xs text-white/35 mt-0.5">HackerRank · May 2025</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-certificate text-white/12 group-hover:text-white/35 transition-colors text-xs"></i>
+                    </div>
+                    <div class="cert-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/20 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <span class="text-xs font-bold text-white/25 w-5 text-center border border-white/12 py-0.5">H</span>
+                            <div>
+                                <p class="text-sm font-medium text-white/70 group-hover:text-white/90 transition-colors">SQL Intermediate</p>
+                                <p class="text-xs text-white/35 mt-0.5">HackerRank · Aug 2023</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-certificate text-white/12 group-hover:text-white/35 transition-colors text-xs"></i>
+                    </div>
+                    <div class="cert-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/20 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <span class="text-xs font-bold text-white/25 w-5 text-center border border-white/12 py-0.5">H</span>
+                            <div>
+                                <p class="text-sm font-medium text-white/70 group-hover:text-white/90 transition-colors">SQL Basic</p>
+                                <p class="text-xs text-white/35 mt-0.5">HackerRank · Aug 2023</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-certificate text-white/12 group-hover:text-white/35 transition-colors text-xs"></i>
+                    </div>
+                    <div class="cert-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/20 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <span class="text-xs font-bold text-white/25 w-5 text-center border border-white/12 py-0.5">H</span>
+                            <div>
+                                <p class="text-sm font-medium text-white/70 group-hover:text-white/90 transition-colors">JavaScript (Basics)</p>
+                                <p class="text-xs text-white/35 mt-0.5">HackerRank · ID: 1fdb6f4bd241</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-certificate text-white/12 group-hover:text-white/35 transition-colors text-xs"></i>
+                    </div>
+                    <div class="cert-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/20 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <span class="text-xs font-bold text-white/25 w-5 text-center border border-white/12 py-0.5">H</span>
+                            <div>
+                                <p class="text-sm font-medium text-white/70 group-hover:text-white/90 transition-colors">React (Basics)</p>
+                                <p class="text-xs text-white/35 mt-0.5">HackerRank · ID: a6b5ddbc8a69</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-certificate text-white/12 group-hover:text-white/35 transition-colors text-xs"></i>
+                    </div>
+                    <div class="cert-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/20 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <span class="text-xs font-bold text-white/25 w-5 text-center border border-white/12 py-0.5">F</span>
+                            <div>
+                                <p class="text-sm font-medium text-white/70 group-hover:text-white/90 transition-colors">Responsive Web Design</p>
+                                <p class="text-xs text-white/35 mt-0.5">FreeCodeCamp · Jun 2023</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-certificate text-white/12 group-hover:text-white/35 transition-colors text-xs"></i>
+                    </div>
+                    <div class="cert-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/20 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <span class="text-xs font-bold text-white/25 w-5 text-center border border-white/12 py-0.5">U</span>
+                            <div>
+                                <p class="text-sm font-medium text-white/70 group-hover:text-white/90 transition-colors">jQuery</p>
+                                <p class="text-xs text-white/35 mt-0.5">Udemy · Aug 2022</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-certificate text-white/12 group-hover:text-white/35 transition-colors text-xs"></i>
+                    </div>
+                    <div class="cert-row group flex items-center justify-between py-4 hover:border-white/20 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <span class="text-xs font-bold text-white/25 w-5 text-center border border-white/12 py-0.5">G</span>
+                            <div>
+                                <p class="text-sm font-medium text-white/70 group-hover:text-white/90 transition-colors">Python</p>
+                                <p class="text-xs text-white/35 mt-0.5">HCL GUVI · Aug 2022</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-certificate text-white/12 group-hover:text-white/35 transition-colors text-xs"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ TESTIMONIALS — infinite moving cards ══════════ -->
+    <section id="testimonials" class="py-28 md:py-36 border-t border-white/8 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 mb-14">
+            <div class="flex items-center gap-3 reveal">
+                <span class="text-xs font-medium text-white/30 tracking-[0.2em]">07</span>
+                <div class="w-6 h-px bg-white/15"></div>
+                <span class="text-xs font-medium text-white/30 tracking-[0.2em] uppercase">Recommendations</span>
+            </div>
+        </div>
+
+        <!-- Moving testimonial cards -->
+        <div class="testimonial-overflow">
+            <div class="testimonial-track">
+
+                <!-- Card 1 — Sakthitharan Subramanian -->
+                <div class="testimonial-card">
+                    <p class="font-display font-bold text-[3rem] text-white/10 leading-none select-none mb-2">"</p>
+                    <p class="text-sm text-white/65 leading-[1.9]">
+                        He has shown an impressive ability to pick up new frameworks and tools quickly, consistently evolving his skillset. Beyond his technical abilities, Logeshwaran is a very respectful and pleasant person to work with — someone who brings a positive and honest energy to any team environment.
+                    </p>
+                    <div class="border-t border-white/10 pt-5 mt-6">
+                        <p class="font-semibold text-sm text-white/85">Sakthitharan Subramanian</p>
+                        <p class="text-xs text-white/35 mt-1">Assistant Professor - Academic - Researcher - AI - Smart Systems</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 — Kiran K -->
+                <div class="testimonial-card">
+                    <p class="font-display font-bold text-[3rem] text-white/10 leading-none select-none mb-2">"</p>
+                    <p class="text-sm text-white/65 leading-[1.9]">
+                        I had the pleasure of studying alongside Logeshwaran K during our B.Sc. in Computer Science. He consistently stood out — not just for his technical skills, but also for his exceptional communication and leadership abilities. I'm confident his strong work ethic and interpersonal skills will make him an asset to any team.
+                    </p>
+                    <div class="border-t border-white/10 pt-5 mt-6">
+                        <p class="font-semibold text-sm text-white/85">Kiran K</p>
+                        <p class="text-xs text-white/35 mt-1">MEAN-Stack Developer - Rare Tech Software Solutions - Bahrain</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 — Aravinth J -->
+                <div class="testimonial-card">
+                    <p class="font-display font-bold text-[3rem] text-white/10 leading-none select-none mb-2">"</p>
+                    <p class="text-sm text-white/65 leading-[1.9]">
+                        Logeshwaran's technical expertise spans a wide range of technologies, and he excels in quickly grasping new concepts and applying them effectively to solve complex problems. His proactive approach to staying updated with the latest industry trends ensures that his contributions are always innovative and impactful.
+                    </p>
+                    <div class="border-t border-white/10 pt-5 mt-6">
+                        <p class="font-semibold text-sm text-white/85">Aravinth J</p>
+                        <p class="text-xs text-white/35 mt-1">Software Engineer - .NET Core - React JS - AI Integration Specialist</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 — Elfa Jacob -->
+                <div class="testimonial-card">
+                    <p class="font-display font-bold text-[3rem] text-white/10 leading-none select-none mb-2">"</p>
+                    <p class="text-sm text-white/65 leading-[1.9]">
+                        Logeshwaran is a young, dedicated yet talented IT guy who is eager to upgrade his skills by developing systems and other related technologies.
+                    </p>
+                    <div class="border-t border-white/10 pt-5 mt-6">
+                        <p class="font-semibold text-sm text-white/85">Elfa Jacob</p>
+                        <p class="text-xs text-white/35 mt-1">Senior Operations Manager - Supply Chain - E-Commerce</p>
+                    </div>
+                </div>
+
+                <!-- Card 5 — Nidi Annisa Riva -->
+                <div class="testimonial-card">
+                    <p class="font-display font-bold text-[3rem] text-white/10 leading-none select-none mb-2">"</p>
+                    <p class="text-sm text-white/65 leading-[1.9]">
+                        Logesh has very good skills in developing tools, especially in terms of CRM as the company's data center. He has built various features in the CRM so that it is comfortable for users to use. I believe the skills he has are very applicable wherever he works.
+                    </p>
+                    <div class="border-t border-white/10 pt-5 mt-6">
+                        <p class="font-semibold text-sm text-white/85">Nidi Annisa Riva</p>
+                        <p class="text-xs text-white/35 mt-1">Program & Operations Professional - E-Commerce - Supplier Sourcing</p>
+                    </div>
+                </div>
+
+                <!-- Duplicates for seamless infinite loop -->
+                <div class="testimonial-card">
+                    <p class="font-display font-bold text-[3rem] text-white/10 leading-none select-none mb-2">"</p>
+                    <p class="text-sm text-white/65 leading-[1.9]">
+                        He has shown an impressive ability to pick up new frameworks and tools quickly, consistently evolving his skillset. Beyond his technical abilities, Logeshwaran is a very respectful and pleasant person to work with — someone who brings a positive and honest energy to any team environment.
+                    </p>
+                    <div class="border-t border-white/10 pt-5 mt-6">
+                        <p class="font-semibold text-sm text-white/85">Sakthitharan Subramanian</p>
+                        <p class="text-xs text-white/35 mt-1">Assistant Professor - Academic - Researcher - AI - Smart Systems</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="font-display font-bold text-[3rem] text-white/10 leading-none select-none mb-2">"</p>
+                    <p class="text-sm text-white/65 leading-[1.9]">
+                        I had the pleasure of studying alongside Logeshwaran K during our B.Sc. in Computer Science. He consistently stood out — not just for his technical skills, but also for his exceptional communication and leadership abilities. I'm confident his strong work ethic and interpersonal skills will make him an asset to any team.
+                    </p>
+                    <div class="border-t border-white/10 pt-5 mt-6">
+                        <p class="font-semibold text-sm text-white/85">Kiran K</p>
+                        <p class="text-xs text-white/35 mt-1">MEAN-Stack Developer - Rare Tech Software Solutions - Bahrain</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="font-display font-bold text-[3rem] text-white/10 leading-none select-none mb-2">"</p>
+                    <p class="text-sm text-white/65 leading-[1.9]">
+                        Logeshwaran's technical expertise spans a wide range of technologies, and he excels in quickly grasping new concepts and applying them effectively to solve complex problems. His proactive approach to staying updated with the latest industry trends ensures that his contributions are always innovative and impactful.
+                    </p>
+                    <div class="border-t border-white/10 pt-5 mt-6">
+                        <p class="font-semibold text-sm text-white/85">Aravinth J</p>
+                        <p class="text-xs text-white/35 mt-1">Software Engineer - .NET Core - React JS - AI Integration Specialist</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="font-display font-bold text-[3rem] text-white/10 leading-none select-none mb-2">"</p>
+                    <p class="text-sm text-white/65 leading-[1.9]">
+                        Logeshwaran is a young, dedicated yet talented IT guy who is eager to upgrade his skills by developing systems and other related technologies.
+                    </p>
+                    <div class="border-t border-white/10 pt-5 mt-6">
+                        <p class="font-semibold text-sm text-white/85">Elfa Jacob</p>
+                        <p class="text-xs text-white/35 mt-1">Senior Operations Manager - Supply Chain - E-Commerce</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="font-display font-bold text-[3rem] text-white/10 leading-none select-none mb-2">"</p>
+                    <p class="text-sm text-white/65 leading-[1.9]">
+                        Logesh has very good skills in developing tools, especially in terms of CRM as the company's data center. He has built various features in the CRM so that it is comfortable for users to use. I believe the skills he has are very applicable wherever he works.
+                    </p>
+                    <div class="border-t border-white/10 pt-5 mt-6">
+                        <p class="font-semibold text-sm text-white/85">Nidi Annisa Riva</p>
+                        <p class="text-xs text-white/35 mt-1">Program & Operations Professional - E-Commerce - Supplier Sourcing</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ CONTACT — HIRE ME ════════════════════════════ -->
+    <section id="contact" class="py-28 md:py-36 border-t border-white/8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="reveal mb-20">
+                <p class="text-xs font-semibold text-white/30 tracking-[0.22em] uppercase mb-6">08 — Open to Work</p>
+                <h2 class="font-display font-bold text-white leading-[0.86] mb-8" style="font-size: clamp(52px, 9vw, 130px)">
+                    HIRE ME.
+                </h2>
+                <p class="text-base text-white/60 leading-[1.9] max-w-md mb-10">
+                    Available for freelance projects, contract work, and full-time opportunities. I build static websites, web applications, and cross-platform mobile apps.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="mailto:logeshl7086@gmail.com"
+                       class="text-sm font-semibold bg-white text-black px-10 py-4 hover:bg-white/85 transition-colors inline-flex items-center gap-3 group">
+                        Let's Work Together
+                        <i class="fa-solid fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/logeshwaran1803" target="_blank"
+                       class="text-sm font-medium border border-white/25 px-8 py-4 hover:border-white/55 transition-colors inline-flex items-center gap-3">
+                        <i class="fa-brands fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 md:gap-24 border-t border-white/8 pt-14">
+                <div class="reveal flex flex-col gap-0">
+                    <a href="mailto:logeshl7086@gmail.com" class="contact-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/22 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <i class="fa fa-envelope text-white/30 group-hover:text-white/70 transition-colors w-4"></i>
+                            <span class="text-sm font-medium text-white/55 group-hover:text-white/85 transition-colors">logeshl7086@gmail.com</span>
+                        </div>
+                        <i class="fa fa-arrow-right c-arrow text-white/20 group-hover:text-white/50 transition-colors text-xs"></i>
+                    </a>
+                    <a href="tel:+919384373859" class="contact-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/22 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <i class="fa fa-phone text-white/30 group-hover:text-white/70 transition-colors w-4"></i>
+                            <span class="text-sm font-medium text-white/55 group-hover:text-white/85 transition-colors">+91 93843 73859</span>
+                        </div>
+                        <i class="fa fa-arrow-right c-arrow text-white/20 group-hover:text-white/50 transition-colors text-xs"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/logeshwaran1803" target="_blank" class="contact-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/22 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <i class="fa-brands fa-linkedin text-white/30 group-hover:text-white/70 transition-colors w-4"></i>
+                            <span class="text-sm font-medium text-white/55 group-hover:text-white/85 transition-colors">linkedin.com/in/logeshwaran1803</span>
+                        </div>
+                        <i class="fa fa-arrow-right c-arrow text-white/20 group-hover:text-white/50 transition-colors text-xs"></i>
+                    </a>
+                    <a href="https://wa.me/+919384373859?text=Hi,Logeshwaran" target="_blank" class="contact-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/22 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <i class="fa-brands fa-whatsapp text-white/30 group-hover:text-white/70 transition-colors w-4"></i>
+                            <span class="text-sm font-medium text-white/55 group-hover:text-white/85 transition-colors">WhatsApp</span>
+                        </div>
+                        <i class="fa fa-arrow-right c-arrow text-white/20 group-hover:text-white/50 transition-colors text-xs"></i>
+                    </a>
+                    <a href="https://instagram.com/_mr_sighting_killar_" target="_blank" class="contact-row group flex items-center justify-between py-4 border-b border-white/8 hover:border-white/22 transition-colors">
+                        <div class="flex items-center gap-4">
+                            <i class="fa-brands fa-instagram text-white/30 group-hover:text-white/70 transition-colors w-4"></i>
+                            <span class="text-sm font-medium text-white/55 group-hover:text-white/85 transition-colors">Instagram</span>
+                        </div>
+                        <i class="fa fa-arrow-right c-arrow text-white/20 group-hover:text-white/50 transition-colors text-xs"></i>
+                    </a>
+                </div>
+
+                <div class="reveal d1">
+                    <p class="text-xs font-semibold text-white/30 tracking-[0.18em] uppercase mb-6">I can help you with</p>
+                    <div class="flex flex-col gap-0">
+                        <div class="flex items-center gap-3 py-3.5 border-b border-white/6">
+                            <span class="w-1.5 h-1.5 rounded-full bg-white/35 flex-shrink-0"></span>
+                            <span class="text-sm font-medium text-white/65">Static Website Development</span>
+                        </div>
+                        <div class="flex items-center gap-3 py-3.5 border-b border-white/6">
+                            <span class="w-1.5 h-1.5 rounded-full bg-white/35 flex-shrink-0"></span>
+                            <span class="text-sm font-medium text-white/65">Full-Stack Web Application</span>
+                        </div>
+                        <div class="flex items-center gap-3 py-3.5 border-b border-white/6">
+                            <span class="w-1.5 h-1.5 rounded-full bg-white/35 flex-shrink-0"></span>
+                            <span class="text-sm font-medium text-white/65">Cross-Platform Mobile App (Flutter)</span>
+                        </div>
+                        <div class="flex items-center gap-3 py-3.5 border-b border-white/6">
+                            <span class="w-1.5 h-1.5 rounded-full bg-white/35 flex-shrink-0"></span>
+                            <span class="text-sm font-medium text-white/65">REST API Development & Integration</span>
+                        </div>
+                        <div class="flex items-center gap-3 py-3.5 border-b border-white/6">
+                            <span class="w-1.5 h-1.5 rounded-full bg-white/35 flex-shrink-0"></span>
+                            <span class="text-sm font-medium text-white/65">Database Design & Optimisation</span>
+                        </div>
+                        <div class="flex items-center gap-3 py-3.5">
+                            <span class="w-1.5 h-1.5 rounded-full bg-white/35 flex-shrink-0"></span>
+                            <span class="text-sm font-medium text-white/65">UI/UX Implementation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ FOOTER ════════════════════════════════════════ -->
+    <footer class="border-t border-white/8 py-8">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+            <span class="font-display font-bold text-xl text-white/20">LK.</span>
+            <span class="text-xs font-medium text-white/22 tracking-wide">© 2025 Logeshwaran K — Built with precision.</span>
+            <a href="#hero" class="text-xs font-medium text-white/22 hover:text-white/60 transition-colors">↑ Back to top</a>
+        </div>
+    </footer>
+
+    <!-- ═══════ JAVASCRIPT ════════════════════════════════════ -->
+    <script>
+    // ── Custom Cursor
+    const dot  = document.getElementById('cursor-dot');
+    const ring = document.getElementById('cursor-ring');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+    document.addEventListener('mousemove', e => {
+        mx = e.clientX; my = e.clientY;
+        dot.style.left = mx + 'px'; dot.style.top = my + 'px';
+    });
+    (function animRing() {
+        rx += (mx - rx) * 0.13; ry += (my - ry) * 0.13;
+        ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
+        requestAnimationFrame(animRing);
+    })();
+    document.querySelectorAll('a, button, .skill-tag, .proj-card, .service-card').forEach(el => {
+        el.addEventListener('mouseenter', () => { ring.classList.add('cursor-hover'); dot.classList.add('dot-hover'); });
+        el.addEventListener('mouseleave', () => { ring.classList.remove('cursor-hover'); dot.classList.remove('dot-hover'); });
+    });
+
+    // ── Scroll Progress + Float + Navbar
+    const bar       = document.getElementById('scroll-progress');
+    const nav       = document.getElementById('navbar');
+    const hireFloat = document.getElementById('hire-float');
+    window.addEventListener('scroll', () => {
+        const pct = window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100;
+        bar.style.width = pct + '%';
+        nav.classList.toggle('nav-scrolled', window.scrollY > 40);
+        if (window.scrollY > window.innerHeight * 0.6) {
+            hireFloat.style.opacity = '1';
+            hireFloat.style.transform = 'translateY(0)';
+        } else {
+            hireFloat.style.opacity = '0';
+            hireFloat.style.transform = 'translateY(16px)';
+        }
+    }, { passive: true });
+
+    // ── Typing Effect
+    const roles   = ['Fullstack Developer', 'Next.js Engineer', 'NestJS Developer', 'React Developer', 'Flutter Developer', 'Tech Enthusiast'];
+    const typedEl = document.getElementById('typed-text');
+    let rIdx = 0, cIdx = 0, deleting = false;
+    function tick() {
+        const word = roles[rIdx];
+        typedEl.textContent = deleting ? word.slice(0, cIdx - 1) : word.slice(0, cIdx + 1);
+        deleting ? cIdx-- : cIdx++;
+        if (!deleting && cIdx === word.length) { deleting = true; return setTimeout(tick, 2000); }
+        if (deleting && cIdx === 0) { deleting = false; rIdx = (rIdx + 1) % roles.length; return setTimeout(tick, 350); }
+        setTimeout(tick, deleting ? 50 : 90);
+    }
+    setTimeout(tick, 1000);
+
+    // ── Scroll Reveal
+    const io = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('revealed'); io.unobserve(e.target); } });
+    }, { threshold: 0.1, rootMargin: '0px 0px -25px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // ── Smooth Scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+        a.addEventListener('click', e => {
+            const target = document.querySelector(a.getAttribute('href'));
+            if (!target) return;
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            document.getElementById('mobile-menu').classList.add('hidden');
+            document.getElementById('menu-label').textContent = 'Menu';
+            document.body.classList.remove('menu-open');
+            menuOpen = false;
+        });
+    });
+
+    // ── Mobile Menu
+    let menuOpen = false;
+    document.getElementById('menu-btn').addEventListener('click', () => {
+        menuOpen = !menuOpen;
+        document.getElementById('mobile-menu').classList.toggle('hidden', !menuOpen);
+        document.getElementById('menu-label').textContent = menuOpen ? 'Close' : 'Menu';
+        document.body.classList.toggle('menu-open', menuOpen);
+    });
+    </script>
 </body>
 </html>
